@@ -2503,6 +2503,9 @@ ul.social-buttons li {
     transition: all .3s ease-in-out;
 }
 
+.gtw:hover {
+  color:#800015;
+}
 /* =Blog
 -------------------------------------------------------------- */
 
