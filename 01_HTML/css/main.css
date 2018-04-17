@@ -217,6 +217,10 @@ ul.list {
 ul.sublist {
     padding-left: 35px;
 }
+
+#aboutMe > article > h4 {
+  font-size: 14px;
+}
 /* =General
 -------------------------------------------------------------- */
 
@@ -255,6 +259,7 @@ ul.sublist {
     margin-bottom: 30px;
     margin-top: 5%;
 }
+
 .main-title.near-content {
     margin-bottom: 22px;
 }
@@ -1473,7 +1478,7 @@ ul.sub-menu li a {
     margin-top: 8%;
 }
 .history-wrapper article {
-    margin-top: 60px
+    margin-top: 40px;
 
 }
 .history-wrapper h4 {
@@ -1938,8 +1943,16 @@ ul.client-thumb-2 li a img:hover{
     top: 7px;
     opacity: 1;
 }
+.main-title #whyChooseMe {
+  margin-top: 80px;
+}
+
 #myWorkContainer {
   margin-top: 10px;
+}
+
+.owl-wrapper-outer {
+  margin-top: 40px;
 }
 .works-filter {
     float: left;
@@ -2502,6 +2515,10 @@ ul.social-buttons li {
     font-size: .8em;
     transition: all .3s ease-in-out;
 }
+
+/*.gtw {
+ font-size: 20px;
+}*/
 
 .gtw:hover {
   color:#800015;
@@ -3216,6 +3233,12 @@ a img.aligncenter {
     display: none;
   }
 }
+@media (max-width: 990px) {
+  #mtp {
+    display: none;
+  }
+}
+/* makeee footer responsiveeeee !!!! its not done yet !!!! */
 
 @media (max-width:1210px) {
   #whyChooseMe {
