@@ -1497,9 +1497,17 @@ ul.sub-menu li a {
 .center-block {
   object-fit: cover;
   width:500px;
-  height: 400px;
+  height: 480px;
   opacity: 0.8;
-  padding-top: 30px;
+}
+
+#circlePic {
+  object-fit: cover;
+  width:500px;
+  height: 480px;
+  opacity: 1;
+  /*padding-top: 30px;*/
+  border-radius: 60%;
 }
 /* Services */
 .services-home-page {
@@ -2351,10 +2359,12 @@ span.press {
 
 /* =Single Project
 -------------------------------------------------------------- */
+
 #sp {
   height: 700px;
   margin-bottom: 30px;
 }
+
 .single-project-slider {
     position: relative;
     height: 700px;
@@ -2406,6 +2416,7 @@ span.press {
 }
 .single-portfolio-wrapper {
     margin-top: 50px
+
 }
 .single-portfolio-wrapper span.info {
     font-size: 14px;
@@ -2414,6 +2425,7 @@ span.press {
     clear: both;
     float: left;
 }
+
 .table>thead>tr>th,
 .table>tbody>tr>th,
 .table>tfoot>tr>th,
@@ -2519,6 +2531,10 @@ ul.social-buttons li {
 /*.gtw {
  font-size: 20px;
 }*/
+
+.gtw {
+    color:#800015;
+}
 
 .gtw:hover {
   color:#800015;
